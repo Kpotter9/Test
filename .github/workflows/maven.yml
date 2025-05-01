@@ -20,5 +20,4 @@ jobs:
     - name: Build with Maven
       working-directory: demo
       run: mvn -B package
-    - name: Update dependency graph
-      working-directory: demo # Ensure the working directory is consistent
+   
